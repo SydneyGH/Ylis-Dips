@@ -96,9 +96,12 @@ a:hover{
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+    .img{
+        width: fit-content;
+    }
     .btn-group {
-      width: 100%;
+      width: fit-content;
     }
   }
 
