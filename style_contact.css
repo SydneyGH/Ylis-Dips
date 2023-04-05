@@ -1,6 +1,8 @@
 body{
     margin: 10;
     background: linear-gradient(to left, whitesmoke, rgb(233, 137, 153));
+    font-family: 'Indie Flower';
+    font-size: 1rem;
 }
 
 #contact{

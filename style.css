@@ -4,6 +4,8 @@ body{
  display: grid;
  background: rgb(240, 131, 149);
  box-sizing:border-box;
+ font-family: 'Indie Flower';
+ font-size: 1rem;
  }
 
 #cs-background{
