@@ -13,63 +13,32 @@ const Order = () => {
             </div>
             <div className="select-menu">
                 <div className="select-box">
-                    <label className="choice1-label">
-                        Strawberries:
+                    <label className="choice-label">
+                        Treats
                     </label>
                     <select className="sel-options">
-                        <option value="0"> </option>
-                        <option value="1">Option1</option>
-                        <option value="2">Option2</option>
-                        <option value="3">Option3</option>
+                        <option value="0">Select Treat</option>
+                        <option value="1">Strawberry</option>
+                        <option value="2">Pretzels</option>
+                        <option value="3">Oreos</option>
                     </select>
-                    <label className="flavor1-label">
-                        Flavor:
+                    <label className="choice-label">
+                        Amount
+                    </label>
+                    <select className="sel-amount">
+                        <option value="0">Select Amount</option>
+                        <option value="1">6</option>
+                        <option value="2">8</option>
+                        <option value="3">12</option>
+                    </select>
+                    <label className="choice-label">
+                        Flavor
                     </label>
                     <select className="sel-flavor">
-                        <option> </option>
+                        <option>Select Flavor</option>
                         <option>Dark Chocolate</option>
                         <option>Milk Chocolate</option>
-                        <option>Custon</option>
-                    </select>
-                </div>
-                <div className="select-box"> 
-                    <label className="choice2-label">
-                        Pretzels:
-                    </label>
-                    <select className="sel-options">
-                        <option value="0"> </option>
-                        <option value="1">Option1</option>
-                        <option value="2">Option2</option>
-                        <option value="3">Option3</option>
-                    </select>
-                    <label className="flavor2-label">
-                        Flavor:
-                    </label>
-                    <select className="sel-flavor">
-                        <option> </option>
-                        <option>Dark Chocolate</option>
-                        <option>Milk Chocolate</option>
-                        <option>Custon</option>
-                    </select>
-                </div>
-                <div className="select-box">
-                    <label className="choice3-label">
-                        Oreos:
-                    </label>
-                    <select className="sel-options">
-                        <option value="0"> </option>
-                        <option value="1">Option1</option>
-                        <option value="2">Option2</option>
-                        <option value="3">Option3</option>
-                    </select>
-                    <label className="flavor3-label">
-                        Flavor:
-                    </label>
-                    <select className="sel-flavor">
-                        <option> </option>
-                        <option>Dark Chocolate</option>
-                        <option>Milk Chocolate</option>
-                        <option>Custon</option>
+                        <option>Custom</option>
                     </select>
                 </div>
                 <div>
